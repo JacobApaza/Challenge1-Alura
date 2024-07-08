@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --color-primario: #F3F5FC;
+    --color-secundario: #0A3871;
+    --color-terciario: #D8DFE8;
+    --color-texto: #495057;
+    --color-footer_primario: #0A3871;
+    --color-footer_secundario: #125fbd;
+    --fuente-inter: 'Inter', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--color-primario);
+}
+
+.container {
+    display: flex;
+    align-items: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    resize: none;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.div-btn{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction:row;
+    gap: 32px;
+}
+
+.btn-encrypt{
+    border-radius: 24px;
+    width: 328px;
+    color: #FFFFFF;
+    background-color: #0A3871;
+}
+
+.btn-decrypt{
+    border-radius: 24px;
+    width: 328px;
+    color: #0A3871;
+    background-color: #FFFFFF;
+}
+
+.btn-copy{
+    border-radius: 24px;
+    border: none;
+    background-color: #EFF1FA;
+    width: 336px;
+    color: #0A3871;
+    box-shadow:#0A3871;
+    margin-bottom: 30%;
+}
+
+.btn-copy:hover{
+    background-color: var(--color-secundario);
+    color: white;
+}
+
+.msg{
+    color: #495057;
+    font-size: 12px;
+}
+ .txtSalida{
+    border-radius: 32px;
+    width: 400px;
+    box-shadow: 10px;
+ }
+
+ .textarea{
+    border: none;
+    
+    width: 680px;
+
+ }

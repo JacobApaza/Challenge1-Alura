@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar/Desencriptar Alura</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="./img/Logo.png" width="120" height="48" alt="Logo Alura">
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="txtInput">
+                <textarea class="textarea" id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+                
+                <span class="msg">
+                    <img src="./img/Group.png" width="16px" height="16px" alt="Exclamacion">Solo letras minusculas y sin acentos
+                    </span>
+                <div class="div-btn">
+                    <button class="btn-encrypt" onclick="encriptar();">Encriptar</button>
+                    <button class="btn-decrypt" onclick="desencriptar();">Desencriptar</button>
+                    
+                </div>
+
+            </div>
+
+            <div class="txtRpta">
+                <textarea class="txtSalida" id="outputText" readonly placeholder="El resultado aparecerá aquí..."></textarea>
+            </div>
+            <button class="btn-copy" id="btn-copy" onclick="copiarAlPortapapeles();" >Copiar</button>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 C. Jacob Apaza Prudencio - Alura Latan
+    </footer>
+
+                    
+        
+        
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
