@@ -17,32 +17,44 @@
             <div class="txtInput">
                 <textarea class="textarea" id="inputText" placeholder="Ingrese el texto aquí"></textarea>
                 
-                <span class="msg">
-                    <img src="./img/Group.png" width="16px" height="16px" alt="Exclamacion">Solo letras minusculas y sin acentos
+                <div class="msg">
+                    <span >
+                        <img src="./img/Group.png" width="16px" height="16px" alt="Exclamacion">Solo letras minusculas y sin acentos
                     </span>
+                </div>
+                
                 <div class="div-btn">
                     <button class="btn-encrypt" onclick="encriptar();">Encriptar</button>
-                    <button class="btn-decrypt" onclick="desencriptar();">Desencriptar</button>
-                    
+                    <button class="btn-decrypt" onclick="desencriptar();">Desencriptar</button>    
                 </div>
 
             </div>
-
-            <div class="txtRpta">
-                <textarea class="txtSalida" id="outputText" readonly placeholder="El resultado aparecerá aquí..."></textarea>
-            </div>
-            <button class="btn-copy" id="btn-copy" onclick="copiarAlPortapapeles();" >Copiar</button>
         </div>
+            
+            <div class="container-txtArea-imagen-muneco">
+                    <textarea class="txtSalida" id="outputText" readonly ></textarea>
+                    <img src="./img/muneco.png" alt="Muñeco" class="muneco">
+                    <p class="txt1-super">Ningun mensaje fue encontrado</p>       
+            </div>
+
+                
+                    
+                    <button class="btn-copy" id="btn-copy" onclick="copiarAlPortapapeles();" >Copiar</button>
+                
+    
+
+
+            
+            
+            
+            
+        
     </main>
 
-    <footer>
+    <footer class="footer">
         &copy; 2024 C. Jacob Apaza Prudencio - Alura Latan
-    </footer>
-
-                    
+    </footer> 
         
-        
-
     <script src="./script/script.js"></script>
 </body>
 </html>
