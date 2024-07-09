@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+    --color-primario: #F3F5FC;
+    --color-secundario: #0A3871;
+    --color-terciario: #D8DFE8;
+    --color-texto: #495057;
+    --color-footer_primario: #0A3871;
+    --color-footer_secundario: #125fbd;
+    --fuente-inter: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    align-self:center; 
+    width: 120px;
+    height: 48px;
+}
+.container-padre{
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    width: 680px;
+    flex-grow: 40%;
+    height: 288px;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.div-btn{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction:row;
+    gap: 20px;
+    width: 328px;
+    height: 67px;
+}
+
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-encrypt{
+    border-radius: 24px;
+    width: 328px;
+    color: #FFFFFF;
+    background-color: #0A3871;
+}
+
+.btn-decrypt{
+    border-radius: 24px;
+    width: 328px;
+    color: #0A3871;
+    background-color: #FFFFFF;
+    border-style: none;
+}
+
+.btn-copy{
+    border-radius: 24px;
+    border: none;
+    background-color: #EFF1FA;
+    width: 336px;
+    color: #0A3871;
+    box-shadow:#0A3871;
+    margin-bottom: 30%;
+}
+
+.btn-copy:hover{
+    background-color: var(--color-secundario);
+    color: white;
+}
+
+
+.container2{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    flex-grow: 60%;
+}
+.txtArea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 32px;
+
+}
+
+.muneco{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 30%;
+    max-height: 30%;
+    
+}
