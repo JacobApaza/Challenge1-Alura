@@ -3,40 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptar/Desencriptar Alura</title>
+    <link rel="stylesheet" href="./css/style1.css">
 </head>
 <body>
 
-    <header><img src="./img/Logo.png" alt="" class="logo"></header>
-    <main>
-      <div class="container-padre">
-        <div class="">
-            <textarea name="" id="" class="txtArea">Ingrese texto aqui</textarea>
-            
-            <div class="div-btn">
+    <section class="container">
+        <div class="container-logo-img">
+            <img src="./img/Logo.png" alt="" width="120px" height="48px">
+        </div>
+
+        <div class="container-inputText">
+            <textarea name="" id="" class="txtAreaIn"> Ingrese texto aqui</textarea>
+            <div class="container-btn">
                 <button class="btn-encrypt">Encriptar</button>
                 <button class="btn-decrypt">Desencriptar</button>
             </div>
+
+
         </div>
-            
-            <div class="">
-                <textarea name="" id="" class="txtArea"></textarea>
-                <img src="./img/muneco.png" alt="Muñeco" class="muneco">
-                <div>
-                    <button class="btn-copy"> Copiar</button>
-                </div>
-            </div>
-        
-      </div>
-            
-        
 
-
-    </main>
+        <div class="container-rptaText">
+            <textarea name="" id="" class="txtAreaOut"></textarea>
+            <img src="./img/muneco.png" alt="Muñeco" class="muneco">
+            <span class="txt1-super">Ningun mensaje fue encontrado</span>
+            <p class="txt2-super">Ingresa el texto que desees encriptar o desencriptar</p>
+            <button class="btn-copy" onclick="">Copia</button>
+        </div>
+        
+        
+    </section>
     
 
 
-    
+
+
+
 </body>
 </html>

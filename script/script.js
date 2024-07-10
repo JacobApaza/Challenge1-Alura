@@ -11,6 +11,7 @@ function encriptar() {
         .replace(/o/g, "ober")
         .replace(/u/g, "ufat");
     document.getElementById('outputText').value = encryptedText;
+    
 }
 
 function desencriptar() {
